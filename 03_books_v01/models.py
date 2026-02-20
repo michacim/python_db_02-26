@@ -2,7 +2,7 @@ from dataclasses import  dataclass
 
 @dataclass
 class Book:
-    id:int | None = None 
+    id:int | None = None # älter: id:Optional[int]=None
     title:str=""
     author:str=""
     genre:str=""

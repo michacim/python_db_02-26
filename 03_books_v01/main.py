@@ -1,17 +1,29 @@
 from models import Book
 from crud import BookRepository
 from db_connect import connect_db
-from db_schema import create_books_table
+from db_schema import create_new_books_table
 
 
 def main():
 
     conn = connect_db()
-    create_books_table(conn)
+    create_new_books_table(conn)
     repo = BookRepository(conn)
     savedbook = repo.save(Book(title="Kochbuch", author="Maxi",genre="Küche",published_year=2000))
 
-    print(savedbook)
+    print("save: ",savedbook)
+    
+    books = repo.find_all()
+    print(books)
+
+    print("Find by Title")
+    print(repo.find_by_title('Kochbuch'))
+    del_book= repo.delete_by_id(1)
+    print(f"Buch gelöscht: {del_book}")
+
+   
+
+
 
 
 if __name__=="__main__":

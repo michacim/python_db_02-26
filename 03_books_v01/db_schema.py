@@ -1,4 +1,4 @@
-def create_books_table(conn):
+def create_new_books_table(conn):
 
     try:
 
