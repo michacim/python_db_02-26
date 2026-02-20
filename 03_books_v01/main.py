@@ -12,19 +12,21 @@ def main():
     repo = BookRepository(conn)
     #########
     book_list= create_books('books.csv')
+
+    #print(book_list)
     repo.save_books(book_list)
     #########
-    savedbook = repo.save(Book(title="Kochbuch", author="Maxi",genre="Küche",published_year=2000))
+    # savedbook = repo.save(Book(title="Kochbuch", author="Maxi",genre="Küche",published_year=2000))
 
-    print("save: ",savedbook)
+    # print("save: ",savedbook)
     
-    books = repo.find_all()
-    print(books)
+    # books = repo.find_all()
+    # print(books)
 
-    print("Find by Title")
-    print(repo.find_by_title('Kochbuch'))
-    del_book= repo.delete_by_id(1)
-    print(f"Buch gelöscht: {del_book}")
+    # print("Find by Title")
+    # print(repo.find_by_title('Kochbuch'))
+    # del_book= repo.delete_by_id(1)
+    # print(f"Buch gelöscht: {del_book}")
 
    
 

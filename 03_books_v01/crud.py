@@ -67,4 +67,16 @@ class BookRepository:
 
     def save_books(self, book_list:list[Book]):# kein return
         ''' speichert alle Datensätze  der übergebenen book_list'''
-        pass #FIXME
+        cursor = self.conn.cursor()
+        try:
+            q= '''
+            INSERT INTO books(title,author,genre, published_year)
+            VALUES (%s,%s,%s,%s)
+            '''
+            values =[ (b.title, b.author, b.genre,b.published_year) for b in book_list]
+            cursor.executemany(q,values)
+            self.conn.commit()
+        except Exception as e:
+             print(f"Error: {e}")
+        finally:
+            cursor.close()
