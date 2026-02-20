@@ -27,12 +27,10 @@ class BookRepository:
     def find_all(self)->list[Book]:
         cursor = self.conn.cursor(dictionary=True)
         try:
-            
             sql='SELECT * FROM books'
             cursor.execute(sql)
             result= cursor.fetchall()
-            return [Book(**row) for row in result]
-
+            return [Book(**row) for row in result]# create Book-List
         except Exception as e:
             print(f"Error: {e}")
         finally:
@@ -48,6 +46,14 @@ class BookRepository:
         except Exception as e:
              print(f"Error: {e}")
     def delete_by_id(self,id:int)-> bool:
+        """ 
+        Args:
+            id: Primary Key from book
+        Return:
+            True, wenn erfolgreich gelöscht
+        Raise:
+           
+        """
         try:
             cursor = self.conn.cursor()
             sql = "DELETE FROM books WHERE id = %s"
