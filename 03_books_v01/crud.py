@@ -80,3 +80,17 @@ class BookRepository:
              print(f"Error: {e}")
         finally:
             cursor.close()
+
+
+### Aufgabe ###############################
+## 
+    def update_books(self, book:Book) -> bool:
+        ''' das übergebene Book--Objekt soll die neuen Daten und die aktuelle (vorhandene) id beinhalten
+            -> eine Id darf nicht verändert werden
+           '''
+    def find_by_author(self,author:str)-> list[Book]:
+        ''' findet alle Bücher nach Author '''
+
+    def find_after_published_year(self, published_year:int)->list[Book]:
+        '''' findet alle Büch ab einschließlich Jahr z.B. ab. 2000 '''
+
