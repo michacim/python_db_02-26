@@ -1,0 +1,501 @@
+"id","title","author","genre","published_year"
+1,The Shining Vol. 3,Arthur C. Clarke,Adventure,1921
+2,The Way of Kings Vol. 6,George Orwell,Science Fiction,1945
+3,The Hobbit Vol. 6,Jane Austen,Horror,2024
+4,"1984 Vol. 7",J.K. Rowling,Mystery,1875
+5,It Vol. 7,Ernest Hemingway,Dystopian,1954
+6,The Hobbit Vol. 2,Brandon Sanderson,Mystery,1929
+7,The Final Empire Vol. 4,Aldous Huxley,Thriller,1915
+8,Neuromancer Vol. 9,Ernest Hemingway,Adventure,2002
+9,The Way of Kings Vol. 1,J.K. Rowling,Mystery,1864
+10,Dune Vol. 3,Mark Twain,Mystery,1912
+11,The Final Empire Vol. 9,Isaac Asimov,Adventure,1890
+12,Moby Dick Vol. 4,Isaac Asimov,Thriller,1937
+13,Fahrenheit 451 Vol. 6,H.G. Wells,Mystery,1909
+14,Brave New World Vol. 9,Mark Twain,Dystopian,1919
+15,The Lost World Vol. 6,Ray Bradbury,Horror,1917
+16,Fahrenheit 451 Vol. 9,J.K. Rowling,Fantasy,1927
+17,To Kill a Mockingbird Vol. 9,Stephen King,Dystopian,2014
+18,Moby Dick Vol. 2,Harper Lee,Fantasy,2011
+19,The Great Gatsby Vol. 8,George Orwell,Science Fiction,1945
+20,To Kill a Mockingbird Vol. 10,Aldous Huxley,Mystery,1977
+21,Pride and Prejudice Vol. 6,Ernest Hemingway,Thriller,1980
+22,The Great Gatsby Vol. 2,Jane Austen,Classic,1868
+23,Brave New World Vol. 6,Ernest Hemingway,Thriller,1925
+24,The Lost World Vol. 9,George Orwell,Science Fiction,1880
+25,The Great Gatsby Vol. 8,Arthur C. Clarke,Classic,1858
+26,Moby Dick Vol. 2,Isaac Asimov,Science Fiction,1933
+27,Fahrenheit 451 Vol. 10,F. Scott Fitzgerald,Mystery,2000
+28,The Final Empire Vol. 2,Ray Bradbury,Fantasy,1999
+29,The Final Empire Vol. 9,J.K. Rowling,Thriller,2006
+30,The Shining Vol. 1,J.K. Rowling,Adventure,1870
+31,The Final Empire Vol. 4,Arthur C. Clarke,Science Fiction,1935
+32,To Kill a Mockingbird Vol. 2,H.G. Wells,Horror,1993
+33,It Vol. 10,H.G. Wells,Dystopian,2001
+34,The Lost World Vol. 10,H.G. Wells,Fantasy,1907
+35,The Hobbit Vol. 6,George Orwell,Fantasy,1925
+36,Fahrenheit 451 Vol. 8,Harper Lee,Fantasy,2015
+37,Dune Vol. 6,Brandon Sanderson,Thriller,1963
+38,The Final Empire Vol. 5,J.K. Rowling,Horror,2013
+39,Brave New World Vol. 8,Jane Austen,Mystery,1883
+40,The Lost World Vol. 4,H.G. Wells,Mystery,1901
+41,Pride and Prejudice Vol. 2,Mark Twain,Mystery,2020
+42,Moby Dick Vol. 6,Brandon Sanderson,Adventure,1908
+43,Pride and Prejudice Vol. 7,J.R.R. Tolkien,Fantasy,2010
+44,To Kill a Mockingbird Vol. 6,Mark Twain,Science Fiction,1958
+45,The Final Empire Vol. 8,H.G. Wells,Fantasy,1914
+46,Moby Dick Vol. 2,H.G. Wells,Dystopian,2017
+47,Brave New World Vol. 1,Brandon Sanderson,Fantasy,1903
+48,Dune Vol. 2,Ernest Hemingway,Mystery,1982
+49,It Vol. 2,George Orwell,Horror,2001
+50,The Way of Kings Vol. 6,Mark Twain,Adventure,1888
+51,The Lost World Vol. 3,George Orwell,Thriller,1984
+52,Dune Vol. 8,Stephen King,Science Fiction,1996
+53,To Kill a Mockingbird Vol. 5,Isaac Asimov,Mystery,1916
+54,Pride and Prejudice Vol. 10,Aldous Huxley,Dystopian,1927
+55,Fahrenheit 451 Vol. 6,Jane Austen,Classic,1964
+56,The Great Gatsby Vol. 3,Jane Austen,Science Fiction,2012
+57,Brave New World Vol. 1,Arthur C. Clarke,Horror,1984
+58,Fahrenheit 451 Vol. 4,F. Scott Fitzgerald,Dystopian,2024
+59,To Kill a Mockingbird Vol. 5,George Orwell,Fantasy,1859
+60,Brave New World Vol. 10,Jane Austen,Horror,1928
+61,Dune Vol. 2,Arthur C. Clarke,Mystery,1960
+62,The Lost World Vol. 3,F. Scott Fitzgerald,Classic,2023
+63,Fahrenheit 451 Vol. 3,Jane Austen,Dystopian,1864
+64,Brave New World Vol. 2,George Orwell,Classic,1932
+65,Dune Vol. 10,Harper Lee,Mystery,1972
+66,The Hobbit Vol. 4,George Orwell,Mystery,1897
+67,The Lost World Vol. 1,Jane Austen,Classic,1914
+68,The Great Gatsby Vol. 1,J.R.R. Tolkien,Horror,1895
+69,To Kill a Mockingbird Vol. 4,J.R.R. Tolkien,Science Fiction,1950
+70,The Hobbit Vol. 7,Isaac Asimov,Thriller,1956
+71,The Shining Vol. 5,Harper Lee,Science Fiction,2011
+72,Brave New World Vol. 1,Harper Lee,Classic,1983
+73,Fahrenheit 451 Vol. 6,Ernest Hemingway,Adventure,2001
+74,Pride and Prejudice Vol. 8,J.R.R. Tolkien,Dystopian,1954
+75,The Shining Vol. 3,Jane Austen,Fantasy,1886
+76,The Way of Kings Vol. 2,Mark Twain,Fantasy,1965
+77,To Kill a Mockingbird Vol. 2,Mark Twain,Classic,2000
+78,The Final Empire Vol. 5,Jane Austen,Thriller,2007
+79,The Final Empire Vol. 4,Ray Bradbury,Dystopian,1898
+80,Dune Vol. 4,J.R.R. Tolkien,Thriller,1855
+81,The Hobbit Vol. 4,Brandon Sanderson,Fantasy,1883
+82,It Vol. 7,Jane Austen,Horror,1938
+83,Fahrenheit 451 Vol. 2,Jane Austen,Mystery,1992
+84,Neuromancer Vol. 2,Ray Bradbury,Dystopian,1931
+85,Fahrenheit 451 Vol. 7,J.R.R. Tolkien,Horror,1896
+86,Neuromancer Vol. 7,J.K. Rowling,Dystopian,1937
+87,To Kill a Mockingbird Vol. 8,Brandon Sanderson,Dystopian,1958
+88,Fahrenheit 451 Vol. 2,J.R.R. Tolkien,Mystery,1857
+89,The Lost World Vol. 2,Brandon Sanderson,Horror,1858
+90,The Final Empire Vol. 4,Aldous Huxley,Mystery,1866
+91,The Great Gatsby Vol. 7,Harper Lee,Classic,1912
+92,The Way of Kings Vol. 8,Harper Lee,Adventure,1970
+93,The Final Empire Vol. 6,Arthur C. Clarke,Thriller,1968
+94,The Final Empire Vol. 7,Jane Austen,Science Fiction,1918
+95,It Vol. 7,Isaac Asimov,Fantasy,1871
+96,Pride and Prejudice Vol. 5,Brandon Sanderson,Horror,2008
+97,It Vol. 4,Ray Bradbury,Adventure,1928
+98,The Way of Kings Vol. 3,Ernest Hemingway,Classic,2024
+99,Pride and Prejudice Vol. 5,Ray Bradbury,Thriller,1858
+100,Neuromancer Vol. 5,Mark Twain,Horror,1963
+101,Dune Vol. 10,Mark Twain,Horror,1859
+102,The Lost World Vol. 7,Jane Austen,Horror,1902
+103,The Shining Vol. 3,Mark Twain,Mystery,1941
+104,The Great Gatsby Vol. 8,J.R.R. Tolkien,Thriller,1895
+105,Brave New World Vol. 4,George Orwell,Classic,1952
+106,Pride and Prejudice Vol. 3,Ray Bradbury,Thriller,1946
+107,Pride and Prejudice Vol. 3,Aldous Huxley,Dystopian,1896
+108,Neuromancer Vol. 1,Arthur C. Clarke,Mystery,1882
+109,The Lost World Vol. 4,Aldous Huxley,Science Fiction,1885
+110,Dune Vol. 6,Arthur C. Clarke,Mystery,2008
+111,Moby Dick Vol. 8,Mark Twain,Adventure,1856
+112,"1984 Vol. 3",Mark Twain,Dystopian,1994
+113,It Vol. 4,George Orwell,Fantasy,1893
+114,Dune Vol. 4,Harper Lee,Thriller,1965
+115,To Kill a Mockingbird Vol. 9,H.G. Wells,Science Fiction,1998
+116,Pride and Prejudice Vol. 3,Mark Twain,Horror,2024
+117,The Lost World Vol. 3,Jane Austen,Thriller,1898
+118,The Lost World Vol. 1,Ray Bradbury,Fantasy,1895
+119,The Lost World Vol. 4,H.G. Wells,Mystery,1989
+120,It Vol. 5,Isaac Asimov,Classic,2020
+121,The Lost World Vol. 7,Jane Austen,Science Fiction,1962
+122,The Lost World Vol. 8,J.K. Rowling,Thriller,1947
+123,Neuromancer Vol. 7,J.K. Rowling,Mystery,1976
+124,Fahrenheit 451 Vol. 7,H.G. Wells,Adventure,1964
+125,It Vol. 1,J.K. Rowling,Classic,1853
+126,Dune Vol. 9,F. Scott Fitzgerald,Mystery,2021
+127,It Vol. 4,Ernest Hemingway,Fantasy,1971
+128,The Final Empire Vol. 7,Arthur C. Clarke,Thriller,2020
+129,Pride and Prejudice Vol. 8,Stephen King,Science Fiction,1915
+130,Brave New World Vol. 10,F. Scott Fitzgerald,Fantasy,1977
+131,The Great Gatsby Vol. 3,Mark Twain,Science Fiction,1997
+132,Neuromancer Vol. 8,H.G. Wells,Fantasy,1864
+133,Moby Dick Vol. 9,Ray Bradbury,Horror,1980
+134,Neuromancer Vol. 1,Ray Bradbury,Thriller,1954
+135,It Vol. 10,Isaac Asimov,Classic,1984
+136,The Shining Vol. 5,Stephen King,Adventure,1976
+137,Brave New World Vol. 8,Ernest Hemingway,Thriller,2004
+138,Brave New World Vol. 3,Stephen King,Mystery,1863
+139,The Great Gatsby Vol. 1,F. Scott Fitzgerald,Fantasy,1997
+140,Pride and Prejudice Vol. 9,Mark Twain,Classic,1928
+141,The Way of Kings Vol. 6,George Orwell,Science Fiction,1897
+142,To Kill a Mockingbird Vol. 1,Isaac Asimov,Horror,1978
+143,Neuromancer Vol. 2,George Orwell,Science Fiction,1887
+144,To Kill a Mockingbird Vol. 3,Mark Twain,Classic,2012
+145,The Lost World Vol. 1,Isaac Asimov,Horror,1862
+146,Pride and Prejudice Vol. 2,Brandon Sanderson,Science Fiction,1852
+147,Fahrenheit 451 Vol. 5,Isaac Asimov,Fantasy,1920
+148,The Hobbit Vol. 3,Harper Lee,Horror,2008
+149,Pride and Prejudice Vol. 8,J.R.R. Tolkien,Mystery,2011
+150,The Hobbit Vol. 7,J.K. Rowling,Thriller,2009
+151,It Vol. 9,J.K. Rowling,Mystery,1957
+152,The Great Gatsby Vol. 9,George Orwell,Adventure,1904
+153,Neuromancer Vol. 2,Aldous Huxley,Dystopian,1902
+154,The Lost World Vol. 9,Aldous Huxley,Fantasy,1919
+155,To Kill a Mockingbird Vol. 1,Jane Austen,Adventure,1880
+156,Dune Vol. 7,Stephen King,Fantasy,1984
+157,The Hobbit Vol. 4,Jane Austen,Science Fiction,1999
+158,The Lost World Vol. 6,Aldous Huxley,Horror,1891
+159,Brave New World Vol. 10,Ray Bradbury,Mystery,2019
+160,"1984 Vol. 4",F. Scott Fitzgerald,Thriller,1943
+161,The Lost World Vol. 5,F. Scott Fitzgerald,Horror,1864
+162,To Kill a Mockingbird Vol. 6,F. Scott Fitzgerald,Mystery,1975
+163,The Way of Kings Vol. 8,Isaac Asimov,Dystopian,1980
+164,To Kill a Mockingbird Vol. 2,J.R.R. Tolkien,Classic,1969
+165,Brave New World Vol. 9,J.R.R. Tolkien,Science Fiction,1951
+166,The Shining Vol. 9,Aldous Huxley,Adventure,1970
+167,To Kill a Mockingbird Vol. 3,Isaac Asimov,Science Fiction,1959
+168,Dune Vol. 6,Arthur C. Clarke,Thriller,1985
+169,Pride and Prejudice Vol. 4,Stephen King,Adventure,1854
+170,Fahrenheit 451 Vol. 5,J.R.R. Tolkien,Science Fiction,2014
+171,The Final Empire Vol. 3,Brandon Sanderson,Fantasy,1987
+172,"1984 Vol. 9",H.G. Wells,Mystery,2008
+173,Dune Vol. 3,Mark Twain,Fantasy,1991
+174,The Final Empire Vol. 8,Ernest Hemingway,Horror,2015
+175,The Lost World Vol. 4,Isaac Asimov,Dystopian,1893
+176,The Shining Vol. 4,Mark Twain,Science Fiction,1873
+177,Moby Dick Vol. 6,J.R.R. Tolkien,Science Fiction,2009
+178,"1984 Vol. 9",F. Scott Fitzgerald,Fantasy,1931
+179,The Lost World Vol. 1,J.R.R. Tolkien,Adventure,1910
+180,The Way of Kings Vol. 10,Stephen King,Mystery,1995
+181,The Shining Vol. 9,Jane Austen,Adventure,1950
+182,Fahrenheit 451 Vol. 9,J.R.R. Tolkien,Science Fiction,1908
+183,The Hobbit Vol. 2,H.G. Wells,Dystopian,2021
+184,The Hobbit Vol. 6,Ernest Hemingway,Horror,1946
+185,The Shining Vol. 3,George Orwell,Dystopian,2016
+186,Moby Dick Vol. 5,H.G. Wells,Adventure,1948
+187,Neuromancer Vol. 10,J.R.R. Tolkien,Adventure,1933
+188,Moby Dick Vol. 1,Isaac Asimov,Classic,1857
+189,Neuromancer Vol. 7,Ray Bradbury,Mystery,1994
+190,The Final Empire Vol. 3,Arthur C. Clarke,Thriller,1938
+191,The Shining Vol. 8,Ray Bradbury,Fantasy,2019
+192,The Great Gatsby Vol. 10,Stephen King,Fantasy,1856
+193,The Hobbit Vol. 5,F. Scott Fitzgerald,Adventure,1896
+194,Pride and Prejudice Vol. 2,Ernest Hemingway,Fantasy,1952
+195,It Vol. 10,Harper Lee,Adventure,1883
+196,It Vol. 1,Brandon Sanderson,Thriller,1983
+197,The Lost World Vol. 4,F. Scott Fitzgerald,Thriller,1869
+198,The Way of Kings Vol. 6,Brandon Sanderson,Science Fiction,1966
+199,The Final Empire Vol. 7,Brandon Sanderson,Horror,1902
+200,Fahrenheit 451 Vol. 3,Stephen King,Adventure,1914
+201,The Lost World Vol. 2,Mark Twain,Thriller,1957
+202,Moby Dick Vol. 9,Ray Bradbury,Science Fiction,1913
+203,The Hobbit Vol. 1,Jane Austen,Science Fiction,1943
+204,Brave New World Vol. 7,Jane Austen,Classic,1920
+205,The Great Gatsby Vol. 3,F. Scott Fitzgerald,Adventure,1912
+206,The Way of Kings Vol. 10,H.G. Wells,Fantasy,1890
+207,The Hobbit Vol. 3,Arthur C. Clarke,Mystery,1948
+208,The Final Empire Vol. 9,Jane Austen,Adventure,1865
+209,Pride and Prejudice Vol. 6,F. Scott Fitzgerald,Mystery,2010
+210,The Hobbit Vol. 1,J.R.R. Tolkien,Horror,2012
+211,The Way of Kings Vol. 2,Jane Austen,Thriller,1910
+212,It Vol. 6,Mark Twain,Classic,2012
+213,The Shining Vol. 4,George Orwell,Science Fiction,1856
+214,The Way of Kings Vol. 6,Arthur C. Clarke,Science Fiction,2009
+215,Dune Vol. 10,J.R.R. Tolkien,Classic,1924
+216,Pride and Prejudice Vol. 7,Harper Lee,Adventure,1930
+217,The Way of Kings Vol. 8,Aldous Huxley,Classic,1898
+218,Neuromancer Vol. 10,F. Scott Fitzgerald,Horror,1913
+219,The Hobbit Vol. 2,Arthur C. Clarke,Dystopian,1911
+220,The Lost World Vol. 7,J.K. Rowling,Science Fiction,1883
+221,Dune Vol. 5,Arthur C. Clarke,Thriller,1969
+222,The Shining Vol. 1,J.R.R. Tolkien,Dystopian,1871
+223,"1984 Vol. 6",Isaac Asimov,Horror,1946
+224,The Lost World Vol. 2,Jane Austen,Classic,2000
+225,The Final Empire Vol. 7,Isaac Asimov,Dystopian,1973
+226,Brave New World Vol. 4,Isaac Asimov,Fantasy,1871
+227,Brave New World Vol. 9,J.R.R. Tolkien,Horror,1968
+228,The Great Gatsby Vol. 6,Ernest Hemingway,Classic,1933
+229,Neuromancer Vol. 10,J.R.R. Tolkien,Science Fiction,1927
+230,"1984 Vol. 8",Ray Bradbury,Dystopian,2007
+231,"1984 Vol. 6",George Orwell,Classic,1891
+232,The Shining Vol. 2,Jane Austen,Fantasy,2017
+233,Brave New World Vol. 7,Aldous Huxley,Classic,1991
+234,To Kill a Mockingbird Vol. 6,J.K. Rowling,Fantasy,1881
+235,The Shining Vol. 7,Stephen King,Adventure,1854
+236,Neuromancer Vol. 4,Harper Lee,Adventure,1912
+237,The Final Empire Vol. 2,Ernest Hemingway,Science Fiction,1952
+238,It Vol. 5,Brandon Sanderson,Thriller,1894
+239,The Shining Vol. 1,Aldous Huxley,Thriller,1947
+240,To Kill a Mockingbird Vol. 1,Jane Austen,Adventure,1957
+241,Pride and Prejudice Vol. 5,Isaac Asimov,Thriller,1977
+242,"1984 Vol. 6",Jane Austen,Science Fiction,1885
+243,Neuromancer Vol. 7,Arthur C. Clarke,Classic,1980
+244,"1984 Vol. 4",Isaac Asimov,Mystery,2002
+245,Moby Dick Vol. 6,Aldous Huxley,Thriller,1959
+246,The Shining Vol. 10,Harper Lee,Thriller,1867
+247,It Vol. 4,Ray Bradbury,Classic,2002
+248,Brave New World Vol. 7,George Orwell,Fantasy,1912
+249,The Hobbit Vol. 6,Ray Bradbury,Adventure,1982
+250,The Shining Vol. 8,Ray Bradbury,Dystopian,1867
+251,The Way of Kings Vol. 7,Ernest Hemingway,Science Fiction,1893
+252,Neuromancer Vol. 5,Harper Lee,Fantasy,2005
+253,Brave New World Vol. 9,J.R.R. Tolkien,Horror,1981
+254,Fahrenheit 451 Vol. 2,H.G. Wells,Fantasy,2010
+255,Dune Vol. 9,F. Scott Fitzgerald,Classic,2000
+256,Neuromancer Vol. 1,Aldous Huxley,Science Fiction,1995
+257,The Way of Kings Vol. 2,J.R.R. Tolkien,Adventure,1923
+258,Neuromancer Vol. 7,Arthur C. Clarke,Science Fiction,1880
+259,Neuromancer Vol. 9,Ray Bradbury,Fantasy,2009
+260,The Way of Kings Vol. 4,Ray Bradbury,Science Fiction,1905
+261,To Kill a Mockingbird Vol. 6,Harper Lee,Adventure,1924
+262,Dune Vol. 7,Stephen King,Dystopian,2022
+263,Moby Dick Vol. 3,George Orwell,Thriller,1936
+264,Neuromancer Vol. 8,Arthur C. Clarke,Classic,1998
+265,The Great Gatsby Vol. 1,Harper Lee,Adventure,1850
+266,To Kill a Mockingbird Vol. 5,Ernest Hemingway,Fantasy,1907
+267,The Hobbit Vol. 6,Jane Austen,Mystery,1907
+268,Dune Vol. 9,Ernest Hemingway,Classic,1854
+269,Dune Vol. 3,F. Scott Fitzgerald,Mystery,1862
+270,It Vol. 4,Stephen King,Horror,1900
+271,Neuromancer Vol. 4,F. Scott Fitzgerald,Science Fiction,1958
+272,The Shining Vol. 8,J.R.R. Tolkien,Horror,1929
+273,Fahrenheit 451 Vol. 10,F. Scott Fitzgerald,Adventure,1916
+274,The Final Empire Vol. 5,F. Scott Fitzgerald,Adventure,1890
+275,Dune Vol. 4,George Orwell,Horror,1957
+276,The Great Gatsby Vol. 9,Aldous Huxley,Fantasy,2005
+277,The Final Empire Vol. 9,J.K. Rowling,Thriller,1856
+278,To Kill a Mockingbird Vol. 6,F. Scott Fitzgerald,Science Fiction,1863
+279,Neuromancer Vol. 1,J.R.R. Tolkien,Fantasy,1851
+280,To Kill a Mockingbird Vol. 6,Brandon Sanderson,Classic,1927
+281,"1984 Vol. 8",Jane Austen,Mystery,1991
+282,The Great Gatsby Vol. 10,Stephen King,Science Fiction,1968
+283,The Final Empire Vol. 5,F. Scott Fitzgerald,Horror,1874
+284,It Vol. 1,Ray Bradbury,Mystery,1930
+285,Brave New World Vol. 3,F. Scott Fitzgerald,Horror,1855
+286,Pride and Prejudice Vol. 2,F. Scott Fitzgerald,Science Fiction,1957
+287,The Shining Vol. 2,Harper Lee,Dystopian,1851
+288,To Kill a Mockingbird Vol. 8,J.K. Rowling,Thriller,1997
+289,Dune Vol. 8,Brandon Sanderson,Mystery,1851
+290,The Final Empire Vol. 1,George Orwell,Adventure,1985
+291,Moby Dick Vol. 7,Isaac Asimov,Fantasy,1865
+292,It Vol. 8,F. Scott Fitzgerald,Fantasy,1888
+293,"1984 Vol. 3",Brandon Sanderson,Thriller,1959
+294,"1984 Vol. 10",Stephen King,Horror,2015
+295,Neuromancer Vol. 1,Ernest Hemingway,Science Fiction,1960
+296,The Final Empire Vol. 1,Aldous Huxley,Classic,1939
+297,The Way of Kings Vol. 6,George Orwell,Adventure,1914
+298,Brave New World Vol. 2,Stephen King,Adventure,1887
+299,The Hobbit Vol. 9,Arthur C. Clarke,Fantasy,1910
+300,Fahrenheit 451 Vol. 10,Mark Twain,Fantasy,1927
+301,Moby Dick Vol. 3,Ray Bradbury,Classic,1896
+302,Moby Dick Vol. 10,Brandon Sanderson,Dystopian,1951
+303,"1984 Vol. 6",Isaac Asimov,Science Fiction,1947
+304,The Lost World Vol. 4,Jane Austen,Mystery,1917
+305,Neuromancer Vol. 6,Aldous Huxley,Classic,1929
+306,Neuromancer Vol. 8,Isaac Asimov,Classic,2014
+307,To Kill a Mockingbird Vol. 2,Jane Austen,Thriller,1865
+308,"1984 Vol. 8",Isaac Asimov,Horror,1967
+309,The Great Gatsby Vol. 5,J.R.R. Tolkien,Adventure,1915
+310,The Lost World Vol. 9,Stephen King,Thriller,1884
+311,The Great Gatsby Vol. 6,Ray Bradbury,Adventure,2001
+312,"1984 Vol. 1",Harper Lee,Science Fiction,1885
+313,The Great Gatsby Vol. 5,Aldous Huxley,Fantasy,1877
+314,Neuromancer Vol. 8,Isaac Asimov,Adventure,1951
+315,It Vol. 2,Mark Twain,Horror,1882
+316,To Kill a Mockingbird Vol. 9,J.R.R. Tolkien,Thriller,2015
+317,Dune Vol. 6,Isaac Asimov,Science Fiction,1996
+318,"1984 Vol. 10",Mark Twain,Mystery,1987
+319,The Way of Kings Vol. 4,Isaac Asimov,Mystery,1947
+320,It Vol. 4,Mark Twain,Adventure,1889
+321,Pride and Prejudice Vol. 4,Ernest Hemingway,Fantasy,1904
+322,Moby Dick Vol. 3,Jane Austen,Horror,1867
+323,It Vol. 7,Ernest Hemingway,Adventure,1999
+324,Pride and Prejudice Vol. 2,Arthur C. Clarke,Horror,1878
+325,Dune Vol. 10,Stephen King,Thriller,2011
+326,To Kill a Mockingbird Vol. 2,Ernest Hemingway,Mystery,1953
+327,The Shining Vol. 4,H.G. Wells,Classic,1943
+328,Pride and Prejudice Vol. 1,Brandon Sanderson,Thriller,1999
+329,It Vol. 1,George Orwell,Mystery,2013
+330,The Final Empire Vol. 8,Stephen King,Classic,1962
+331,Dune Vol. 5,Aldous Huxley,Classic,1902
+332,The Way of Kings Vol. 9,J.R.R. Tolkien,Science Fiction,1902
+333,To Kill a Mockingbird Vol. 8,F. Scott Fitzgerald,Horror,1881
+334,Moby Dick Vol. 10,H.G. Wells,Fantasy,1886
+335,Brave New World Vol. 1,J.R.R. Tolkien,Classic,1984
+336,"1984 Vol. 4",Aldous Huxley,Classic,1968
+337,Moby Dick Vol. 7,Harper Lee,Classic,1951
+338,The Hobbit Vol. 10,George Orwell,Fantasy,1905
+339,It Vol. 9,Ray Bradbury,Horror,1978
+340,Dune Vol. 7,Brandon Sanderson,Adventure,1875
+341,Dune Vol. 4,J.R.R. Tolkien,Fantasy,2013
+342,Brave New World Vol. 3,J.R.R. Tolkien,Dystopian,1933
+343,The Lost World Vol. 10,Brandon Sanderson,Classic,1862
+344,Fahrenheit 451 Vol. 1,Mark Twain,Mystery,2011
+345,Pride and Prejudice Vol. 2,Harper Lee,Science Fiction,1919
+346,The Way of Kings Vol. 5,Arthur C. Clarke,Classic,1944
+347,Brave New World Vol. 1,F. Scott Fitzgerald,Fantasy,2021
+348,Dune Vol. 7,Ernest Hemingway,Classic,1958
+349,Neuromancer Vol. 2,Arthur C. Clarke,Science Fiction,2019
+350,Dune Vol. 8,George Orwell,Classic,1921
+351,Fahrenheit 451 Vol. 1,Brandon Sanderson,Dystopian,1937
+352,The Great Gatsby Vol. 1,Harper Lee,Science Fiction,1985
+353,The Shining Vol. 6,Aldous Huxley,Classic,1995
+354,"1984 Vol. 8",J.K. Rowling,Adventure,1914
+355,The Shining Vol. 1,F. Scott Fitzgerald,Thriller,1880
+356,"1984 Vol. 1",Brandon Sanderson,Thriller,1862
+357,The Lost World Vol. 1,J.R.R. Tolkien,Fantasy,1854
+358,The Great Gatsby Vol. 7,F. Scott Fitzgerald,Thriller,1939
+359,The Hobbit Vol. 1,Harper Lee,Mystery,1994
+360,Moby Dick Vol. 8,Ernest Hemingway,Adventure,1992
+361,Dune Vol. 8,Isaac Asimov,Science Fiction,2004
+362,Neuromancer Vol. 5,Ray Bradbury,Classic,1860
+363,It Vol. 5,Aldous Huxley,Adventure,1997
+364,The Shining Vol. 4,Jane Austen,Dystopian,1855
+365,Pride and Prejudice Vol. 4,J.K. Rowling,Classic,1978
+366,The Shining Vol. 3,Isaac Asimov,Dystopian,2015
+367,The Great Gatsby Vol. 9,J.R.R. Tolkien,Dystopian,2008
+368,Neuromancer Vol. 6,Ernest Hemingway,Thriller,1919
+369,The Great Gatsby Vol. 3,Isaac Asimov,Fantasy,1940
+370,The Great Gatsby Vol. 6,J.R.R. Tolkien,Thriller,1879
+371,It Vol. 9,Ernest Hemingway,Thriller,1997
+372,Pride and Prejudice Vol. 6,J.K. Rowling,Thriller,1918
+373,"1984 Vol. 2",Jane Austen,Horror,1877
+374,The Shining Vol. 4,Stephen King,Fantasy,2002
+375,The Way of Kings Vol. 8,Arthur C. Clarke,Mystery,1870
+376,The Lost World Vol. 9,Jane Austen,Adventure,1964
+377,Brave New World Vol. 10,Harper Lee,Science Fiction,1944
+378,The Lost World Vol. 4,Isaac Asimov,Classic,2012
+379,The Lost World Vol. 10,Mark Twain,Dystopian,1855
+380,The Final Empire Vol. 6,Mark Twain,Horror,1969
+381,The Way of Kings Vol. 1,J.K. Rowling,Science Fiction,1984
+382,The Great Gatsby Vol. 8,F. Scott Fitzgerald,Science Fiction,1966
+383,The Shining Vol. 8,J.K. Rowling,Horror,1901
+384,The Great Gatsby Vol. 7,Arthur C. Clarke,Classic,1901
+385,The Great Gatsby Vol. 9,Ernest Hemingway,Fantasy,1916
+386,The Shining Vol. 6,F. Scott Fitzgerald,Mystery,1899
+387,Pride and Prejudice Vol. 8,Mark Twain,Classic,1861
+388,Moby Dick Vol. 3,H.G. Wells,Horror,1939
+389,Fahrenheit 451 Vol. 2,H.G. Wells,Classic,1989
+390,It Vol. 5,Jane Austen,Adventure,1859
+391,"1984 Vol. 7",Mark Twain,Science Fiction,1913
+392,Pride and Prejudice Vol. 8,Ray Bradbury,Dystopian,2021
+393,The Shining Vol. 1,Aldous Huxley,Fantasy,1852
+394,The Final Empire Vol. 6,Mark Twain,Thriller,1951
+395,Moby Dick Vol. 9,Mark Twain,Mystery,1921
+396,The Hobbit Vol. 4,F. Scott Fitzgerald,Classic,2012
+397,To Kill a Mockingbird Vol. 10,Stephen King,Horror,1896
+398,Moby Dick Vol. 8,Mark Twain,Mystery,1894
+399,The Shining Vol. 5,F. Scott Fitzgerald,Classic,1877
+400,Pride and Prejudice Vol. 8,F. Scott Fitzgerald,Fantasy,1931
+401,It Vol. 1,Aldous Huxley,Adventure,1859
+402,The Way of Kings Vol. 1,J.K. Rowling,Mystery,1892
+403,Dune Vol. 2,Ernest Hemingway,Thriller,1937
+404,It Vol. 3,H.G. Wells,Adventure,2019
+405,It Vol. 6,Ernest Hemingway,Mystery,1978
+406,Pride and Prejudice Vol. 9,Brandon Sanderson,Mystery,1905
+407,Neuromancer Vol. 2,Ernest Hemingway,Dystopian,1926
+408,The Hobbit Vol. 2,Harper Lee,Classic,1923
+409,"1984 Vol. 9",George Orwell,Horror,1996
+410,To Kill a Mockingbird Vol. 7,Harper Lee,Classic,2004
+411,The Final Empire Vol. 2,George Orwell,Dystopian,1936
+412,The Final Empire Vol. 2,Mark Twain,Dystopian,1972
+413,The Lost World Vol. 1,J.R.R. Tolkien,Science Fiction,1900
+414,The Great Gatsby Vol. 6,Aldous Huxley,Dystopian,1917
+415,Moby Dick Vol. 9,Jane Austen,Classic,1883
+416,Moby Dick Vol. 3,Harper Lee,Fantasy,1953
+417,Brave New World Vol. 7,Ray Bradbury,Adventure,1934
+418,The Hobbit Vol. 2,Aldous Huxley,Classic,1889
+419,Moby Dick Vol. 7,H.G. Wells,Dystopian,1877
+420,"1984 Vol. 1",George Orwell,Mystery,2017
+421,Neuromancer Vol. 1,Aldous Huxley,Horror,1947
+422,To Kill a Mockingbird Vol. 10,J.K. Rowling,Thriller,1963
+423,The Hobbit Vol. 9,Isaac Asimov,Horror,1918
+424,"1984 Vol. 6",Ernest Hemingway,Horror,1897
+425,Pride and Prejudice Vol. 10,Ernest Hemingway,Thriller,1898
+426,Brave New World Vol. 2,Mark Twain,Classic,1927
+427,The Way of Kings Vol. 6,Ray Bradbury,Horror,1931
+428,Brave New World Vol. 2,Arthur C. Clarke,Thriller,1912
+429,The Way of Kings Vol. 10,Jane Austen,Thriller,1966
+430,The Final Empire Vol. 7,Arthur C. Clarke,Science Fiction,1925
+431,The Way of Kings Vol. 9,F. Scott Fitzgerald,Mystery,1969
+432,Moby Dick Vol. 7,Harper Lee,Mystery,1875
+433,Moby Dick Vol. 10,Jane Austen,Classic,1953
+434,The Final Empire Vol. 9,J.R.R. Tolkien,Thriller,1966
+435,The Shining Vol. 7,Isaac Asimov,Adventure,1850
+436,The Final Empire Vol. 2,J.K. Rowling,Mystery,1854
+437,Neuromancer Vol. 2,Brandon Sanderson,Dystopian,1891
+438,To Kill a Mockingbird Vol. 4,Ernest Hemingway,Fantasy,1941
+439,The Hobbit Vol. 1,Stephen King,Dystopian,1942
+440,Pride and Prejudice Vol. 4,Ray Bradbury,Dystopian,1923
+441,It Vol. 2,Brandon Sanderson,Dystopian,2021
+442,It Vol. 3,Brandon Sanderson,Classic,1966
+443,The Final Empire Vol. 3,Stephen King,Classic,1893
+444,Brave New World Vol. 6,Ray Bradbury,Dystopian,1855
+445,The Great Gatsby Vol. 2,Harper Lee,Mystery,1861
+446,"1984 Vol. 2",Aldous Huxley,Fantasy,1966
+447,Dune Vol. 1,Ray Bradbury,Classic,1966
+448,To Kill a Mockingbird Vol. 8,Mark Twain,Thriller,1854
+449,It Vol. 8,Mark Twain,Classic,1914
+450,Moby Dick Vol. 7,Mark Twain,Thriller,1919
+451,The Shining Vol. 3,Brandon Sanderson,Horror,1921
+452,Fahrenheit 451 Vol. 2,Brandon Sanderson,Science Fiction,1931
+453,The Way of Kings Vol. 10,George Orwell,Horror,1912
+454,Moby Dick Vol. 8,Jane Austen,Classic,1940
+455,The Final Empire Vol. 5,Ray Bradbury,Horror,1866
+456,Pride and Prejudice Vol. 6,Aldous Huxley,Dystopian,1976
+457,To Kill a Mockingbird Vol. 6,J.R.R. Tolkien,Fantasy,2001
+458,The Way of Kings Vol. 5,Mark Twain,Horror,1962
+459,The Shining Vol. 4,J.R.R. Tolkien,Dystopian,1875
+460,The Final Empire Vol. 5,Stephen King,Horror,1934
+461,The Final Empire Vol. 9,J.R.R. Tolkien,Mystery,1887
+462,Brave New World Vol. 8,Jane Austen,Thriller,2007
+463,Dune Vol. 6,Ray Bradbury,Adventure,1932
+464,Pride and Prejudice Vol. 2,H.G. Wells,Science Fiction,1928
+465,Moby Dick Vol. 3,Brandon Sanderson,Mystery,1872
+466,Fahrenheit 451 Vol. 1,J.K. Rowling,Thriller,1970
+467,Fahrenheit 451 Vol. 10,Mark Twain,Mystery,1935
+468,Neuromancer Vol. 6,Harper Lee,Classic,1920
+469,The Way of Kings Vol. 3,Brandon Sanderson,Horror,1857
+470,Brave New World Vol. 10,Isaac Asimov,Adventure,2016
+471,The Final Empire Vol. 9,Arthur C. Clarke,Classic,1877
+472,Pride and Prejudice Vol. 6,F. Scott Fitzgerald,Mystery,1851
+473,"1984 Vol. 1",J.K. Rowling,Classic,2011
+474,Pride and Prejudice Vol. 8,J.R.R. Tolkien,Mystery,1950
+475,It Vol. 6,George Orwell,Classic,1957
+476,Brave New World Vol. 2,Brandon Sanderson,Science Fiction,1999
+477,Pride and Prejudice Vol. 1,Brandon Sanderson,Mystery,1924
+478,It Vol. 2,Mark Twain,Thriller,2024
+479,The Hobbit Vol. 3,Aldous Huxley,Thriller,1929
+480,Brave New World Vol. 8,Isaac Asimov,Thriller,1971
+481,Brave New World Vol. 4,Harper Lee,Horror,1873
+482,To Kill a Mockingbird Vol. 10,Jane Austen,Horror,1850
+483,To Kill a Mockingbird Vol. 6,Harper Lee,Science Fiction,1949
+484,Neuromancer Vol. 9,Stephen King,Horror,1990
+485,Moby Dick Vol. 1,Brandon Sanderson,Classic,2013
+486,The Final Empire Vol. 3,Brandon Sanderson,Thriller,1915
+487,The Great Gatsby Vol. 3,J.K. Rowling,Dystopian,2019
+488,Dune Vol. 8,Ray Bradbury,Science Fiction,1931
+489,The Great Gatsby Vol. 8,George Orwell,Adventure,1853
+490,Neuromancer Vol. 4,F. Scott Fitzgerald,Classic,1902
+491,To Kill a Mockingbird Vol. 8,H.G. Wells,Classic,1992
+492,The Shining Vol. 7,Arthur C. Clarke,Fantasy,1931
+493,Fahrenheit 451 Vol. 1,J.R.R. Tolkien,Adventure,1884
+494,The Great Gatsby Vol. 6,J.K. Rowling,Science Fiction,2022
+495,"1984 Vol. 8",Stephen King,Horror,1953
+496,The Great Gatsby Vol. 2,Ernest Hemingway,Adventure,1983
+497,The Great Gatsby Vol. 7,J.K. Rowling,Science Fiction,1945
+498,The Shining Vol. 4,Ernest Hemingway,Dystopian,1902
+499,It Vol. 5,Stephen King,Fantasy,1917
+500,The Final Empire Vol. 3,J.R.R. Tolkien,Horror,2014

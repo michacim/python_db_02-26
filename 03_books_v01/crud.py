@@ -64,3 +64,7 @@ class BookRepository:
             return del_rows == 1 ## True, wenn genau 1 Datensatz gelöscht
         except Exception as e:
              print(f"Error: {e}")
+
+    def save_books(self, book_list:list[Book]):# kein return
+        ''' speichert alle Datensätze  der übergebenen book_list'''
+        pass #FIXME
