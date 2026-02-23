@@ -8,9 +8,13 @@ def main():
 
     repo = UserRepository(session)
 
-    repo.create_user(User(name="ina",email="ina@web.de"))
-    users = repo.find_all_users()
+   # repo.create_user(User(name="otto",email="otto@web.de"))
+    users = repo.find_all_users()   
     print(users)
+
+    user= repo.update_user(User(id=1,name="ina",email="ina@gmail.com"))
+    print("update:", user)
+ 
     
 if __name__=="__main__":
     main()
