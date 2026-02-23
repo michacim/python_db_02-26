@@ -42,5 +42,5 @@ class UserRepository:
     
 
     def find_user_by_name(self,name:str)->list[User]:
-        stmt = text("select * from user where name ilike :name")
+        stmt = text("select * from user where name like :name")
         return self.session.execute(stmt,{"name":f"%{name}%"}).fetchall()
