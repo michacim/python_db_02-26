@@ -88,9 +88,54 @@ class BookRepository:
         ''' das übergebene Book--Objekt soll die neuen Daten und die aktuelle (vorhandene) id beinhalten
             -> eine Id darf nicht verändert werden
            '''
+        if book is None:
+            raise ValueError("book must not be None")
+        
+        if book.id is None:
+            raise ValueError("Cannot update a book without an ID")
+        cursor = None
+        try:
+            cursor = self.conn.cursor()
+            sql ="""
+                UPDATE books 
+                SET title=%s, author=%s, genre=%s, published_year=%s
+                WHERE id=%s
+            """
+            values = (book.title, book.author,book.genre,book.published_year, book.id)
+            cursor.execute(sql,values)
+            self.conn.commit()
+            return cursor.rowcount==1 # True
+        except Exception as e:
+            print(f"Database:{e}")
+            self.conn.rollback()
+        finally:
+            if cursor is not None:
+                cursor.close()
+         
+
     def find_by_author(self,author:str)-> list[Book]:
         ''' findet alle Bücher nach Author '''
 
     def find_after_published_year(self, published_year:int)->list[Book]:
         '''' findet alle Büch ab einschließlich Jahr z.B. ab. 2000 '''
+
+        if not isinstance(published_year,int):
+            raise ValueError("published_year must be an int")
+        cursor= None
+
+        try:
+
+            cursor = self.conn.cursor(dictionary=True)
+            sql="""
+                SELECT * FROM books WHEREE published_year >= %s
+            """
+            cursor.execute(sql,(published_year,))
+            rows= cursor.fetchall()
+            return [Book(**row)  for row in rows]
+        except Exception as e:
+            print(f"Database:{e}")
+            self.conn.rollback()
+        finally:
+            if cursor is not None:
+                cursor.close()
 
