@@ -14,6 +14,8 @@ def main():
 
     user= repo.update_user(User(id=1,name="ina",email="ina@gmail.com"))
     print("update:", user)
+
+    print (repo.find_user_by_name("ina"))
  
     
 if __name__=="__main__":
