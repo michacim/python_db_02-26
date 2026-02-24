@@ -42,5 +42,10 @@ class UserRepository:
     
 
     def find_user_by_name(self,name:str)->list[User]:
-        stmt = text("select * from user where name ilike :name")
+        stmt = text("select * from user where name like :name") # Native SQL (Datenbankabhängig)
         return self.session.execute(stmt,{"name":f"%{name}%"}).fetchall()
+    
+    
+    def find_user_by_name2(self,name:str)->list[User]:
+        stmt = select(User).where(User.name.ilike(f"%{name}%"))
+        return self.session.execute(stmt).scalars().all()
