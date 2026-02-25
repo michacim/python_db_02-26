@@ -1,5 +1,6 @@
-from sqlalchemy.orm import Session
-from models import Book
+from sqlalchemy.orm import Session, joinedload
+from sqlalchemy import select
+from models import Book, Author
 
 
 class BookRepository:
@@ -13,7 +14,7 @@ class BookRepository:
         self.session.refresh(book)  # Optional: um ID usw. zu aktualisieren
         return book
 
-    def get_book_by_id(self, book_id: int) -> Book | None:
+    def get_book_by_id(self, id: int) -> Book | None:
         return self.session.get(Book, id)
 
     def get_book_by_isbn(self, isbn: str) -> Book | None:
@@ -31,5 +32,17 @@ class BookRepository:
             self.session.commit()
         return book
 
-    def find_books_by_author(self, author: str) -> list[Book]:
-        return self.session.query(Book).filter(Book.author.ilike(f"%{author}%")).all()
+    # def find_books_by_author(self, author: str) -> list[Book]:
+    #     return self.session.query(Book).filter(Book.author.ilike(f"%{author}%")).all()
+
+
+    def find_books_by_author(self, author_name: str) -> list[Book]:
+        stmt = (
+            select(Book)
+            .join(Book.author)
+            .where(Author.name.ilike(f"%{author_name}%"))
+            .options(joinedload(Book.author)) # no lazy
+
+        ) 
+
+        return self.session.execute(stmt).scalars().all()

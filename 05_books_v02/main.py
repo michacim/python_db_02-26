@@ -1,5 +1,5 @@
 from database import  session, Base,engine
-from models import Book
+from models import Book,Author
 from crud import BookRepository
 
 def main():
@@ -11,7 +11,10 @@ def main():
     # --- Testfälle ---
 
     # 1. Buch anlegen
-    new_book = Book(isbn="978-1-23456-789-0", title="Clean Code", author="Robert C. Martin")
+    new_book = Book(isbn="978-1-23456-789-0", title="Clean Code")
+
+    new_book.author = Author(name="martin")
+
     created = repo.create_book(new_book)
     print(f">>> Created: {created}")
 
@@ -24,13 +27,13 @@ def main():
     all_books = repo.get_all_books()
     print(">>> All books:", all_books)
 
-    # # 5. Autorensuche
-    author_books = repo.find_books_by_author("martin")
-    print(">>> Books by author:", author_books)
+    # # # 5. Autorensuche
+    # author_books = repo.find_books_by_author("martin")
+    # print(">>> Books by author:", author_books)
 
-    # # 6. Buch löschen
-    deleted = repo.delete_book(created.id)
-    print(f">>> Deleted: {deleted}")
+    # # # 6. Buch löschen
+    # deleted = repo.delete_book(created.id)
+    # print(f">>> Deleted: {deleted}")
 
 
 if __name__=='__main__':
