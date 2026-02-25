@@ -23,5 +23,16 @@ class Todo(Base, BaseRepr):
     description=Column(Text(500))
     deadline=Column(Date)
     state=Column(Enum("OPEN","IN_PROGRESS","DONE"),nullable=False,default="OPEN")
+    user_id=Column(Integer, ForeignKey("user.id"),nullable=False)
+    user = relationship("User",back_populates="todos")
+
+class User(Base,BaseRepr):
+    __tablename__ ="user"
+    id= Column(Integer, primary_key=True)
+    username=Column(String(50),nullable=False)
+    password=Column(String(100),nullable=False)
+    todos= relationship("Todo",back_populates="user")#List[Todo]
+
+
 
 
