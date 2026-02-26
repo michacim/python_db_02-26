@@ -10,10 +10,12 @@ def  main():
     todo_repo = TodoRepository(session)
 
     u1 = User(username="max",password="12345")
+    u1.todos.append( Todo(task="einkaufen",description="Miclh und Brot",deadline=date(2026,2,26)) )
+
     create_user1 =   user_repo.create(u1)
-    create_user1.todos.append( Todo(task="einkaufen",description="Miclh und Brot",deadline=date(2026,2,26)) )
+
                               
-    print(create_user1)
+    print(create_user1.todos)
 
 
 

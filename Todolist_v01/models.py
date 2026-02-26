@@ -31,7 +31,7 @@ class User(Base,BaseRepr):
     id= Column(Integer, primary_key=True)
     username=Column(String(50),nullable=False)
     password=Column(String(100),nullable=False)
-    todos= relationship("Todo",back_populates="user")#List[Todo]
+    todos= relationship("Todo",back_populates="user",  cascade="all, delete-orphan")#List[Todo]
 
 
 
