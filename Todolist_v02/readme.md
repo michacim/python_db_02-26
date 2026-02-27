@@ -31,4 +31,4 @@ pip install pymysql
 * crud: create anpassen
 * crud ergänzen: def get_user_by_credentails(self, username:str, password:str)->User | None: 
 * Optional: schreibe einen Unittest für create und get_user_by_credentails
-* util.py
+* util.py integrieren
