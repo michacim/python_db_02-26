@@ -5,6 +5,7 @@ from datetime import date
 
 
 def  main():
+    Base.metadata.drop_all(engine)
     Base.metadata.create_all(engine)
     user_repo = UserRepository(session)
     todo_repo = TodoRepository(session)

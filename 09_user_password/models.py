@@ -18,5 +18,5 @@ class BaseRepr:
 class User(Base,BaseRepr):
     __tablename__="user"
     id=Column(Integer, primary_key=True)
-    username = Column(String(20),nullable=False)
+    username = Column(String(20),nullable=False,unique=True)
     password = Column(String(100),nullable=False) 

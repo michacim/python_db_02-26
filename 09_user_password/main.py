@@ -5,7 +5,8 @@ from crud import UserRepository
 
 def main():
     ## Test
-    Base.metadata.create_all()
+    Base.metadata.drop_all(engine)
+    Base.metadata.create_all(engine)
     repo = UserRepository(session)
 
     u = User(username="micha",password="geheim123")
