@@ -15,8 +15,11 @@ def  main():
 
     create_user1 =   user_repo.create(u1)
 
+    logged_in = user_repo.get_user_by_credentails("max","12345")
+    if(logged_in is not None): print("Login ok",logged_in)
+
                               
-    print(create_user1.todos)
+    print(len(create_user1.todos))
 
 
 
