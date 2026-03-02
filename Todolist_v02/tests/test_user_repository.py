@@ -16,13 +16,13 @@ from models import User
 
 
 @pytest.fixture
-def session():
-    return MagicMock()
+def session():  # Fake-Session  test_methode(session)
+    return MagicMock()   # kann über Parameter verwendet werden: def test_create_raises_if_username_exists(repo, session):
 
 
 @pytest.fixture
-def repo(session):
-    return UserRepository(session)
+def repo(session):  # test_methode(repo)
+    return UserRepository(session)   # kann über Parameter verwendet werden
 
 
 # -------------------------
@@ -70,18 +70,18 @@ def test_create_hashes_password_and_persists(repo, session, monkeypatch):
     # hash_password mocken (wichtig: Patch-PFAD muss das Modul sein, in dem UserRepository hash_password importiert!)
     def fake_hash(pw):
         return "HASHED_" + pw
-
+    #monkeypatch.setattr(<ziel>, <ersatz>) -> "crud.hash_password", fake_hash
     monkeypatch.setattr("crud.hash_password", fake_hash)
 
     user = User(username="max", password="12345")
     created = repo.create(user)
 
     assert created is user
-    assert user.password == "HASHED_12345"
+    assert user.password == "HASHED_12345" # original: hash_password(user.password)
 
-    session.add.assert_called_once_with(user)
-    session.commit.assert_called_once()
-    session.refresh.assert_called_once_with(user)
+    session.add.assert_called_once_with(user) #  self.session.add(user)
+    session.commit.assert_called_once()#     self.session.commit()
+    session.refresh.assert_called_once_with(user)#  self.session.refresh(user)
 
 
 # -------------------------
@@ -93,9 +93,9 @@ def test_get_user_by_credentials_returns_none_if_user_not_found(repo, session):
     # Die drei Zeilen bauen dir eine Fake-Query-Kette auf, damit dein Repository denkt, 
     # es hätte eine echte SQLAlchemy-Session vor sich.
     # bedeutet so etwas:user = self.session.query(User).filter(User.username == username).first()
-    q = session.query.return_value
-    f = q.filter.return_value
-    f.first.return_value = None
+    q = session.query.return_value #self.session.query(User)
+    f = q.filter.return_value #filter(User.username == username)
+    f.first.return_value = None #.first()
     assert repo.get_user_by_credentails("max", "12345") is None
 
 def test_get_user_by_credentials_returns_user_if_password_ok(repo, session, monkeypatch):
