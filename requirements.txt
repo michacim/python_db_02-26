@@ -1,0 +1,11 @@
+bcrypt
+email-validator
+fastapi
+mysql-connector-python
+pip
+PyMySQL
+pytest
+SQLAlchemy
+uvicorn
+pydantic
+pydantic[email]
