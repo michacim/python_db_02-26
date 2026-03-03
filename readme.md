@@ -4,6 +4,7 @@
 
 *  pip install -r requirements.txt
 
+``` python
     bcrypt
     email-validator
     fastapi
@@ -15,3 +16,4 @@
     uvicorn
     pydantic
     pydantic[email]
+```
