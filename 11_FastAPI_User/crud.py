@@ -18,3 +18,17 @@ class UserRepository:
     
     def get_user_by_email(self, email:str)->User:
         return self.session.query(User).filter(User.email==email).first()
+    
+    def update_user(self, user:User) -> User | None:
+        db_user = self.session.get(User,user.id)
+        if not db_user:
+            return None
+        db_user.name = user.name
+        db_user.email = user.email
+        self.session.commit()
+        self.session.refresh(db_user)
+
+        return db_user
+    
+    
+

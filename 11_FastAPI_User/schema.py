@@ -9,6 +9,7 @@ class UserRead(BaseModel):
     id:int
     name:str
     email:EmailStr
+    model_config = {"from_attributes": True}
 
 
 class UserUpdate(BaseModel):

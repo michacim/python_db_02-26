@@ -2,7 +2,7 @@ from fastapi import FastAPI
 from pydantic import BaseModel
 app = FastAPI()
 # Routes /Endpoint
-
+#!!!!!!!!!!!!!!!!!!! start: uvicorn main:app --reload !!!!!!!!!!!!!!!!!!!!!!
 class Item(BaseModel):
     name:str
     price:float
@@ -11,7 +11,7 @@ class Item(BaseModel):
 
 @app.get("/") # http://127.0.0.1:8000
 def get_root():
-    return {"message":"Hello Rest"}
+    return {"message":"Hello Rest    "}
 
 
 # Path-Parameter und Query-Parameter
