@@ -33,7 +33,9 @@ def update_user(user_id:int, user_update:UserUpdate, db:Session = Depends(get_db
     repo = UserRepository(db)
 
 
-    user_obj =User(id=user_id, **user_update.model_dump() )#User(id=user_id, name="Max" ,email="max@web.de")
+    #user_obj =User(id=user_id, **user_update.model_dump() ) # >>> Kurzform
+    user_obj =User(id=user_id, name=user_update.name, emmail=user_update.email )#User(id=user_id, name="Max" ,email="max@web.de")
+
     user = repo.update_user(user_obj)
 
     return user
