@@ -68,13 +68,11 @@ def logout():
     st.success("Erfolgreich abgelmeldet!")
     st.rerun()
 
+st.session_state.setdefault("logged_in", False)
 
-if st.session_state.get('logged_in'):
+if st.session_state["logged_in"] and "user" in st.session_state:
     if st.button("Logout"):
         logout()
-if "logged_in" not in st.session_state:
-    st.session_state['logged_in']=False
-if st.session_state['logged_in']:
     welcome()
 else:
     login()
