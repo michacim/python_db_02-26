@@ -28,7 +28,7 @@ def get_all_todos_by_id(user_id:int, db:Session=Depends(get_db)):
     return repo.find_all_todo_by_userid(user_id)
 
 
-@user_router.post("/authenticate",response_model=UserRead)
+@user_router.post("/authenticate",response_model=UserRead)# http://localhost:8000/users/authenticate
 def authenticate_user(credentails:UserLogin,db:Session=Depends(get_db)):
     repo =  UserRepository(db)
     user = repo.get_user_by_credentails(credentails.username,credentails.password)
