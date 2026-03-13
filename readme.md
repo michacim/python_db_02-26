@@ -1,17 +1,6 @@
 # Kurs: Python Datenbanken und RestAPI
 
-## Libraries
 
-*  pip install -r requirements.txt
-
-``` 
-    bcrypt  - Passwortverschlüsselung
-    fastapi - RestFull Service
-    mysql-connector-python -MysqlDB -Standardtreiber
-    PyMySQL - MysqlDB -Treiber (modern)
-    pytest - Unittest
-    SQLAlchemy - ORM-Framework (Datenbankframework)
-    uvicorn - Webserver
-    pydantic - Schema-Model für Rest(FastAPI) mit Validierung
-    pydantic[email] - eingebauter Email- Validator 
-```
+## Datenbank
+### MongoDB-URL
+mongodb+srv://info_db_user:FFWqoTHYnBP8ZfIT@cluster0.40hnhyp.mongodb.net/
