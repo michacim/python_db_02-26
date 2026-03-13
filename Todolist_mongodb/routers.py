@@ -6,7 +6,7 @@ from bson import ObjectId
 from database import get_db
 from crud import UserRepository, TodoRepository
 from schemas import UserCreate, UserRead, UserLogin, TodoCreate, TodoRead
-
+from datetime import datetime, time
 user_router = APIRouter(prefix="/users")
 todo_router = APIRouter(prefix="/todos")
 
@@ -51,4 +51,8 @@ def create_todo(todo: TodoCreate, user_id: str, db: Database = Depends(get_db)):
 
     todo_doc = todo.model_dump()
     todo_doc["user_id"] = uid
+
+    if todo_doc.get("deadline") is not None:
+        todo_doc["deadline"] = datetime.combine(todo_doc["deadline"], time.min)
+
     return repo.create(todo_doc)
